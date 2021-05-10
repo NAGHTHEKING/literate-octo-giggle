@@ -53,13 +53,14 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
-  packageSprite.x= packageBody.position.x 
-  packageSprite.y= packageBody.position.y 
+   
   keyPressed();
   box1.display();
   box2.display();
   box3.display();
   drawSprites();
+	packageSprite.x= packageBody.position.x 
+  packageSprite.y= packageBody.position.y
   console.log(packageBody)
 }
 
